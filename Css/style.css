@@ -43,6 +43,15 @@ html {
     display: flex;
     /* margin-bottom: 20px; */
 }
+.navbar-links {
+    height: 100%;
+}
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
 
 #navbar ul li {
     /* color: white; */
@@ -93,17 +102,17 @@ html {
         display: none;
         width: 100%;
     }
-    .navbar-links ul{
+    .navbar_links ul{
         width: 100%;
         flex-direction: column;
     }
     #navbar ul li {
         text-align: center;
     }
-    .navbar-links ul li a {
+    .navbar_links ul li a {
         padding: .5rem 1rem;
     }
-    .navbar-links.active {
+    .navbar_links.active {
         display: flex;
     }
 }
